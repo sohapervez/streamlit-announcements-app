@@ -10,7 +10,7 @@ import os
 st.title("Company Announcements")
 
 # Directory where my .txt files (one for each ticker) are stored
-directory = '/Users/sohapervez/desktop/apitask/Data'
+directory = os.path.join(os.path.dirname(__file__), 'Data')
 
 # Initialize an empty dictionary to store the data of each ticker
 # key: ticker, value: announcements

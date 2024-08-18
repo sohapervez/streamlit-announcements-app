@@ -1,0 +1,27 @@
+Test Assignment 
+
+You are provided with an API URL:
+
+https://www.asx.com.au/asx/1/company/{TICKER}/announcements?count=20&market_sensitive=false
+where {TICKER} represents a company ticker symbol.
+
+You are also given a list of ticker symbols:
+AEE
+REZ
+1AE
+1MC
+NRZ
+
+Tasks:
+
+1- Retrieve the 20 most recent announcements for each ticker in the list.
+2- Display all the retrieved information in a Streamlit application. The app can be 1 page with minimal styling, only working functionality matters. 
+3- Implement a functionality that allows users to filter and view announcements by selecting the ticker symbol.
+4- Implement a functionality to identify and display tickers that have a "Trading Halt" announcement in their recent announcements.
+
+Submission:
+
+Submit your solution as two links:
+
+A link to the GitHub repository containing all the source code.
+A link to the deployed Streamlit app demonstrating the solution. 
